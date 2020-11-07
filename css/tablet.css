@@ -1,0 +1,45 @@
+/* ABOUT SECTION */
+
+.header-container--about {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.header-container--about--name {
+    display: inline-block;
+    font-size: 2.4rem;
+    font-weight: 300;
+    color: var(--grey-silver);
+    line-height: 33px;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+h2 {
+    display: none;
+}
+
+.history-container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.menu-botton {
+    right: 9%;
+}
+
+
+/* INSTRUMENTS SECTION */
+
+.header-pages-container div {
+    justify-content: center;
+}
+
+h3 {
+    padding-left: 14%;
+}
+
+.audio-container audio {
+    width: 60%;
+}

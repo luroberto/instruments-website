@@ -1,0 +1,13 @@
+.header-container--about {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.history-container {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.instruments-container {
+    flex-direction: row;
+}
