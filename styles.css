@@ -21,7 +21,8 @@ html {
     justify-content: center;
     width: 100%;
     min-width: 320px;
-    height: 700px;
+    height: 100vh;
+    /* height: 700px; */
     text-align: center;
 }
 
@@ -40,7 +41,8 @@ html {
     justify-content: center;
     width: 100%;
     min-width: 320px;
-    height: 650px;
+    height: 100vh;
+    /* height: 650px; */
     text-align: center;
 }
 
@@ -53,11 +55,14 @@ html {
 }
 
 .menu-botton {
-    position: absolute;
+    /* position: absolute;
     width: 47px;
     height: 40px;
-    right: 15px;
+    right: 15px; */
     /* top: 640px; */
+    position: fixed;
+    bottom: 10px;
+    right: 10px; 
 }
 
 .menu-botton a {
@@ -193,8 +198,9 @@ h3 {
 }
 
 .header-container--about img {
-    width: 97px;
-    height: 130px;
+    /* width: 97px;
+    height: 130px; */
+    width: 50%;
     border-radius: 11px;
     margin: 1rem;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
