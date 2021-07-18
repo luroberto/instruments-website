@@ -26,7 +26,9 @@ h2 {
 }
 
 .menu-botton {
-    right: 9%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px; 
 }
 
 
